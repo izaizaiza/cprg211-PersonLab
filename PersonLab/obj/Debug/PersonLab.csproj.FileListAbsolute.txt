@@ -1,0 +1,8 @@
+C:\Users\izalu\OneDrive - Southern Alberta Institute of Technology\Winter2023\CPRG211-OOP2\Labs\PersonLab\PersonLab\bin\Debug\PersonLab.exe.config
+C:\Users\izalu\OneDrive - Southern Alberta Institute of Technology\Winter2023\CPRG211-OOP2\Labs\PersonLab\PersonLab\bin\Debug\PersonLab.exe
+C:\Users\izalu\OneDrive - Southern Alberta Institute of Technology\Winter2023\CPRG211-OOP2\Labs\PersonLab\PersonLab\bin\Debug\PersonLab.pdb
+C:\Users\izalu\OneDrive - Southern Alberta Institute of Technology\Winter2023\CPRG211-OOP2\Labs\PersonLab\PersonLab\obj\Debug\PersonLab.csproj.AssemblyReference.cache
+C:\Users\izalu\OneDrive - Southern Alberta Institute of Technology\Winter2023\CPRG211-OOP2\Labs\PersonLab\PersonLab\obj\Debug\PersonLab.csproj.SuggestedBindingRedirects.cache
+C:\Users\izalu\OneDrive - Southern Alberta Institute of Technology\Winter2023\CPRG211-OOP2\Labs\PersonLab\PersonLab\obj\Debug\PersonLab.csproj.CoreCompileInputs.cache
+C:\Users\izalu\OneDrive - Southern Alberta Institute of Technology\Winter2023\CPRG211-OOP2\Labs\PersonLab\PersonLab\obj\Debug\PersonLab.exe
+C:\Users\izalu\OneDrive - Southern Alberta Institute of Technology\Winter2023\CPRG211-OOP2\Labs\PersonLab\PersonLab\obj\Debug\PersonLab.pdb
