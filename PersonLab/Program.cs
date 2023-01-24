@@ -54,7 +54,7 @@ namespace PersonLab
             {
                ageSum += person.Age;
             }
-            ageAve = ageSum / personList.Count;
+            ageAve = ageSum / personList.Count; //[1]
             Console.WriteLine("the average age of the people in the list is "+ageAve.ToString());
             // youngest person and oldest person
             // order them into 
@@ -62,6 +62,11 @@ namespace PersonLab
             // names of the people whos first name start with M
 
             // person info of the person that likes the colour blue
+
+
+
+            //References
+            //[1]https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.count?view=net-7.0 
 
         }
     }
