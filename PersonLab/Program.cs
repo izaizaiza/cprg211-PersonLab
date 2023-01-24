@@ -10,15 +10,21 @@ namespace PersonLab
 {
     internal class Program
     {
-        public double ageSum = 0;
+        
+
         static void Main(string[] args)
         {
+
             Person firstPerson = new Person(1, "Ian", "Brooks", "Red", 30, true);
             Person secondPerson = new Person(2, "Gina", "James", "Green", 18, false);
             Person thirdPerson = new Person(3, "Mike", "Briscoe", "Blue", 45, true);
             Person fourthPerson = new Person(4, "Mary", "Beals", "Yellow", 28, true);
+            double ageSum = 0;
+            double ageAve;
 
-            //display Gina's info
+
+
+        //display Gina's info
             Console.WriteLine(secondPerson.DisplayPersonInfo());
             //Display Mike's info as a list
             Console.WriteLine(thirdPerson.ToString());
@@ -38,11 +44,23 @@ namespace PersonLab
             {
                 firstPerson, secondPerson, thirdPerson, fourthPerson
             };
-
+            // just checking if the list works
+            foreach (Person person in personList)
+            {
+                Console.WriteLine($"{person.DisplayPersonInfo()}");
+            }
             // ave age of the people in the list
-            
+            foreach (Person person in personList)
+            {
+               ageSum += person.Age;
+            }
+            ageAve = ageSum / personList.Count;
+            Console.WriteLine("the average age of the people in the list is "+ageAve.ToString());
             // youngest person and oldest person
+            // order them into 
+
             // names of the people whos first name start with M
+
             // person info of the person that likes the colour blue
 
         }
