@@ -87,11 +87,28 @@ namespace PersonLab
             // print the oldest and youngest
             Console.WriteLine("The youngest person is " + youngestPerson + " at age " + ageMin);
             Console.WriteLine("The oldest person is " + oldestPerson +  " at age " + ageMax);
-        
+
             // names of the people whos first name start with M
 
-            // person info of the person that likes the colour blue
+            //char firstChar = personList[0].FirstName.ToCharArray()[0];
+            //Console.WriteLine(firstChar=='M');
+            foreach (Person person in personList)
+            {
+                char firstChar = person.FirstName.ToCharArray()[0];
+                if (firstChar == 'M')
+                {
+                    Console.WriteLine($"{person.FirstName} {person.LastName}'s first name starts with the letter M.");
+                }
+            }
 
+            // person info of the person that likes the colour blue
+            foreach(Person person in personList)
+            {
+                if(person.FavoriteColour == "Blue")
+                {
+                    Console.WriteLine($"{person.FirstName} {person.LastName} likes the colour Blue.");
+                }
+            }
 
 
             //References
