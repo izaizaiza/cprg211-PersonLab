@@ -20,7 +20,8 @@ namespace PersonLab
             Person thirdPerson = new Person(3, "Mike", "Briscoe", "Blue", 45, true);
             Person fourthPerson = new Person(4, "Mary", "Beals", "Yellow", 28, true);
             double ageSum = 0;
-            double ageAve;
+            double ageAve ;
+            
 
 
 
@@ -44,12 +45,15 @@ namespace PersonLab
             {
                 firstPerson, secondPerson, thirdPerson, fourthPerson
             };
+
             // just checking if the list works
-            foreach (Person person in personList)
-            {
-                Console.WriteLine($"{person.DisplayPersonInfo()}");
-            }
+            //foreach (Person person in personList)
+            //{
+            //    Console.WriteLine($"{person.DisplayPersonInfo()}");
+            //}
+            
             // ave age of the people in the list
+            
             foreach (Person person in personList)
             {
                ageSum += person.Age;
@@ -57,8 +61,33 @@ namespace PersonLab
             ageAve = ageSum / personList.Count; //[1]
             Console.WriteLine("the average age of the people in the list is "+ageAve.ToString());
             // youngest person and oldest person
-            // order them into 
+            // start with a base age say 1;
 
+            // set the first person as the base comparison FOR NOW; will be changed later as foreach loop occurs
+            int ageMin = personList[0].Age;
+            int ageMax = personList[0].Age;
+            string youngestPerson = "";
+            string oldestPerson = "";
+            
+            foreach (Person person in personList)
+            {
+                if (person.Age <= ageMin)
+                {
+                    ageMin = person.Age;
+                    youngestPerson= $"{person.FirstName} {person.LastName}";
+                
+                }
+                else if (person.Age > ageMax)
+                {
+                    ageMax = person.Age;
+                    oldestPerson= $"{person.FirstName} {person.LastName}";
+                }
+                
+            }
+            // print the oldest and youngest
+            Console.WriteLine("The youngest person is " + youngestPerson + " at age " + ageMin);
+            Console.WriteLine("The oldest person is " + oldestPerson +  " at age " + ageMax);
+        
             // names of the people whos first name start with M
 
             // person info of the person that likes the colour blue
