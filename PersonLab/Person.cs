@@ -78,6 +78,7 @@ namespace PersonLab
             return this.PersonId + ":" + this.FirstName + " " + this.LastName + "'s favorite color is " + this.FavoriteColour;
         }
 
+        // you can add "static" on the method below and make it a member of the type itself so to the class than to the object
         public void ChangeFavoriteColour()
         {
             this.FavoriteColour = "white";
