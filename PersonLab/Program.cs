@@ -37,8 +37,11 @@ namespace PersonLab
             Console.WriteLine("Mary Beals' Age in 10 years is:" + fourthPerson.GetAgeInTenYears());
 
             // skipped the relationship part and jumped to making a list and using that list to print out:
-            // ave age of all the people in the list, who's the youngest and oldest, who has a first name starting with the letter M and who likes the colour blue
 
+            Relation relation1 = new Relation("Sister", secondPerson, "Sister", fourthPerson);
+            
+            
+            // ave age of all the people in the list, who's the youngest and oldest, who has a first name starting with the letter M and who likes the colour blue
             // first make the list
             List<Person> personList = new List<Person>
             {
@@ -122,6 +125,8 @@ namespace PersonLab
             {
                 Console.WriteLine(name + " likes the colour Blue.");
             }
+
+
 
 
 
