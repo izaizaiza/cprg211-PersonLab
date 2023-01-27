@@ -18,37 +18,37 @@ namespace PersonLab
 
         //properties
         public int PersonId 
-        { 
-            get { return this.personId; } 
+        {
+            get => personId;  // => shorthand for return
             set { this.personId = value; } 
         }
         
         public string FirstName
         {
-            get { return this.firstName; }
-            set { this.firstName = value; }
+            get => firstName;
+            set => firstName = value;
         }
 
         public string LastName
         {
-            get { return this.lastName;}
-            set { this.lastName = value;}
+            get => lastName;
+            set => lastName = value;
         }
 
         public string FavoriteColour
         {
-            get { return favoriteColour;}
-            set { favoriteColour = value;}
+            get => favoriteColour;
+            set => favoriteColour = value;
         }
         public int Age
         {
-            get { return age; }
-            set { age = value;}
+            get => age;
+            set => age = value;
         }
         public bool IsWorking
         {
-            get { return isWorking; }
-            set { isWorking = value;}
+            get => isWorking; 
+            set => isWorking = value;
      
         }
 
